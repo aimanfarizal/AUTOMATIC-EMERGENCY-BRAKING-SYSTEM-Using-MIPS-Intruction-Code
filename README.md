@@ -17,4 +17,8 @@ SENSORS
 ACTUATORS
 1. Dashboard Indicator: Alert the driver, ready for emergency brake.
 2. Brake: To stop or reduce the velocity of the car
-3. Rear Emergency Brake Light: Give warning to other drivers.
+3. Rear Emergency Brake Light: Give a warning to other drivers.
+
+To calculate and trigger the Automatic Emergency Brake, we use Time to Colission (TTC) calculation. This calculation involved the current speed of the car and its distance towards the obstacle.
+If the TTC > 2 seconds, the system will trigger the Automatic Emergency Brake. If not, it will just give warning towards the driver to brake manually.
+
