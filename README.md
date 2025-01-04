@@ -1,4 +1,4 @@
-# CAALProject
+# Automatic Emergency Braking System Using MIPS Instruction Code
 Hello Everyone we from KICT in IIUM, this repository is from our group project for Computer Architecture Assembly Language
 Our group consist of 4 members which:
 1. Aiman bin Farizal Yee-Ar 2219069
